@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".courses">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:text="COURSES" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="B. Tech " />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="M.Tech " />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="Biotechnology – Dual Degree " />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="BA LLB/BBA LLB/B.Sc LLB" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="Bachelor of Architecture" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="M.Sc. (Biotechnology / Applied Microbiology)" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="MBA" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="Ph.D" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="M.C.A." />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="course"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="LLM " />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

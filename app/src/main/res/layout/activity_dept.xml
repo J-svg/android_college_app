@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dept">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="208dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:text="DEPARTMENTS" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:onClick="ksca"
+                android:text="School of Computer Application" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="mech"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Mechanical Engineering" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cse"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Computer Engineering" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="civil"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Civill Engineering" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="elec"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Electrical Engineering" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="electro"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Electronics Engineering" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="aps"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Applied Sciences" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="chem"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Chemical Technology" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="poly"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="KIIT Polytechnic" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="arch"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="School of Architecture and Planning" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="iti"
+                android:layout_marginBottom="10dp"
+                android:background="@color/mycolor"
+                android:text="Kalinga Industrial Training Institute" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
